@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en"> <!--Lang not 100% essential.-->
+    <head>
+        <meta charset="UTF-8">
+        <meta 
+            name="viewport" 
+            content="width=device-width, initial-scale=1.0"
+        >
+        <title>Frank Connelly Portfolio Website</title>
+
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        
+<!-- Icons (Font Awesome) -->
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer"/>
+
+<!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+<!-- Link to CSS Stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+        <header>
+
+            <div class="logo">
+                <img 
+                    src="img/devfrank.jpg" 
+                    alt="dev frank logo"
+                >
+                
+            </div>
+
+            <button 
+                class="nav-toggle"
+                aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a 
+                            href="#home" 
+                            class="nav__link">
+                                Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a 
+                            href="#services" 
+                            class="nav__link">
+                                My Services
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a 
+                            href="#about" 
+                            class="nav__link">
+                                About me
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a 
+                            href="#work" 
+                            class="nav__link">
+                                My work
+                        </a>
+                    </li>
+                   
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hello, I am <strong>Frank Connelly</strong>
+            </h1>
+
+            <p class="section__subtitle section__subtitle--intro">
+                front-end dev
+            </p>
+
+            <img src="img/frank-headshot.jpg" alt="a picture of Frank smiling" class="intro__img">
+        </section>
+
+        <!-- My services -->
+
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">
+                What I do
+            </h2>
+                <div class="services">
+                    <div class="service">
+                        <h3>
+                            Web Design
+                        </h3>
+
+                        <p>
+                            As a lifelong learner, I adore the elasticity of the development field. Currently, I build websites and applications using HTML, CSS, and JavaScript frameworks. I love leveraging my unique experiences as a teacher to share information and create innovative products.
+                        </p>
+
+                    </div> <!-- / service -->
+
+                    <div class="service">
+                        <h3>
+                            Music Composition
+                        </h3>
+
+                        <p>
+                            Throughout my life, composing music has been a passion of mine, and I do not plan on stopping soon! I get my music out to clients in a quick, concise manner. The best part is: I love writing music! <a href="https://youtu.be/a448bXH1Uj8" target="_blank">Take a listen sometime.</a> I hope that my devotion to the craft is noticeable.
+                        </p>
+
+                    </div> <!-- / service -->
+
+                    <div class="service">
+                        <h3>
+                            Teaching
+                        </h3>
+
+                        <p>
+                            I have taught in public schools for ten years! My experience has given me practical knowledge inside and outside of the classroom. With the constant change in student needs and curriculum restructures, I have been gifted the ability to modify, adapt, and pivot however necessary. Need someone to quickly learn a piece of software, then train a client how to use it? I am your man!
+                        </p>
+
+                    </div> <!-- / service -->
+                </div> <!-- / services -->
+
+                <a 
+                    href="#work"
+                    class="btn">
+                    My Work
+                </a>
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">
+                Who I am
+            </h2>
+            <p class="section__subtitle section__subtitle--about">
+                Designer and developer in Austin, Texas
+            </p>
+
+            <div class="about-me__body">
+                <p>My family and I live in the suburbs of Austin, Texas. I enjoy spending quality time with my sweet daughter and my wonderful wife. My family is truly the light of my life, and I am fortunate to play a key role in theirs.</p>
+                <p>While on the clock, I love to design. Whether I am composing a piano sonata or writing a beautiful piece of code, I get ecstatic at the opportunity to create. </p>
+            </div>
+
+            <img src="img/frank-family.jpg" alt="Frank with his family" class="about-me__img">
+        </section>
+
+        <!-- My work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">
+                My work
+            </h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+
+                <!-- Portfolio item 1-->
+                <a href="portfolio-item-01.html" class="portfolio__item">
+                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 2-->
+                <a href="portfolio-item-02.html" class="portfolio__item">
+                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 3-->
+                <a href="portfolio-item-03.html" class="portfolio__item">
+                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 4-->
+                <a href="portfolio-item-04.html" class="portfolio__item">
+                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 5-->
+                <a href="portfolio-item-05.html" class="portfolio__item">
+                    <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 6-->
+                <a href="portfolio-item-06.html" class="portfolio__item">
+                    <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 7-->
+                <a href="portfolio-item-07.html" class="portfolio__item">
+                    <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 8-->
+                <a href="portfolio-item-08.html" class="portfolio__item">
+                    <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <h2 class="footer-h2">Let's chat.</h2>
+            <br>
+            <a href="mailto:frankpconnelly@gmail.com" class="footer-link">frankpconnelly@gmail.com</a>
+           
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a 
+                        class="social-list__link"
+                        href="https://codepen.io/frankpconnelly">
+                        <i class="fa-brands fa-codepen"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a 
+                        class="social-list__link"
+                        href="https://github.com/frankpconnelly">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+            
+                <li class="social-list__item">
+                    <a 
+                        class="social-list__link"
+                        href="https://www.facebook.com/happybirthdayfrank/">
+                        <i class="fa-brands fa-facebook-square"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a 
+                        class="social-list__link"
+                        href="https://www.instagram.com/connelly_music/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+
+</html>
